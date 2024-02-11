@@ -1,0 +1,52 @@
+.banner{
+    width: 100%;
+    height: 550px;
+    background: url("../../assets/studiobudsplus-hero.jpg.large.2x.jpg") no-repeat center/cover;
+}
+.banner h1{
+    padding-top: 350px;
+    font-size: 40px;
+    margin-left: 30px;
+    color: #fff;
+}
+.banner button{
+    width: 100px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 50px;
+    background: #fff;
+    color: #000;
+}
+@media screen and (max-width: 990px){
+    .banner{
+        height: 350px;
+    }
+    .banner h1{
+        padding-top: 100px;
+    }
+}
+@media screen and (max-width: 800px){
+    .banner{
+        height: 280px;
+    }
+}
+@media screen and (max-width: 600px){
+    .banner{
+        height: 220px;
+    }
+}
+@media screen and (max-width: 450px){
+    .banner{
+        height: 180px;
+    }
+    .banner h1{
+        font-size: 25px;
+        padding-top: 30px;
+    }
+    .banner button{
+        width: 70px;
+        height: 30px;
+    }
+}
