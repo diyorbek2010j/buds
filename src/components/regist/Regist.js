@@ -1,7 +1,12 @@
 import React from 'react'
+import { useLocation } from 'react-router-dom'
 import "./Regist.css"
 import a from "../../assets/hp-register--fitpro-solo3.png.large.2x.png"
 function Regist() {
+  const {pathname} = useLocation()
+  if(pathname.includes("product")){
+      return <></>
+  }
   return (
     <div className='container regist'>
         <div className="reg__img">

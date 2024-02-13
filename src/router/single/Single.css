@@ -1,0 +1,102 @@
+.single__route{
+    min-height: 600px;
+    display: flex;
+    }
+    .single__img{
+        width: 50%;
+    }
+    .single__img img{
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 8px;
+    }
+    .single__title{
+        width: 70%
+    }
+    .single__name{
+        padding-left: 100px;
+        margin-top: 50px;
+    }
+    .single__title p{
+        padding-left: 100px;
+        margin-top: 20px;
+        width: 60%;
+    }
+    .single__price{
+        padding-left: 100px;
+        margin-top: 20px;
+    }
+ 
+    .single__button{
+        width: 100%;
+        height: 200px;
+        margin-top: 30px;
+        display: flex;
+    }
+    .single__btn{
+        width: 250px;
+    height: 50px;
+    margin-top: 70px;
+    margin-left: 100px;
+    border-radius: 8px;
+    border: none;
+    color: 
+    #fff;
+    background: rgb(235, 46, 235);
+    font-size: 15px;
+    }
+    .single__admin{
+        margin-left: 60px;
+        color: rgb(235, 46, 235);
+        background: none;
+        border: 2px solid  rgb(235, 46, 235);
+    }
+@media screen and (max-width: 1000px){
+    .single__route{
+        display: block;
+        min-height: 700px;
+    }
+    .single__img{
+        width: 100%;
+    }
+    .single__title{
+        width: 100%;
+    }
+    .single__name{
+        text-align: center;
+    }
+    .single__title p{
+      display: none;
+    }
+    .single__price{
+        text-align: center;
+    }
+    .single__button{
+        display: block;
+    }
+}
+@media screen and (max-width: 500px){
+    .single__title{
+        min-height: 400px;
+    }
+    .single__name{
+        padding-left: 10px;
+    }
+    .single__price{
+        padding-left: 10px;
+    }
+    .single__button{
+        margin-top: 1px;
+        min-height: 100px;
+    }
+    .single__admin{
+margin-left: 100px;
+margin-top: 10px;
+    }
+}
+@media screen and (max-width: 400px){
+    .single__button{
+        margin-left: 10px;
+    }
+}

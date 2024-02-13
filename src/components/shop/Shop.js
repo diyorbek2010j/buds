@@ -3,7 +3,12 @@ import "./Shop.css"
 import r from "../../assets/rubik.png"
 import f from "../../assets/ret.png"
 import a from "../../assets/ap.png"
+import { useLocation } from 'react-router-dom'
 function Shop() {
+    const {pathname} = useLocation()
+    if(pathname.includes("product")){
+        return <></>
+    }
   return (
     <div className='container shop'>
         <h1>Seamless Shopping Through Apple</h1>
